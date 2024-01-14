@@ -1,0 +1,31 @@
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test
+$ mkdir git_challenge
+
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test
+$ cd git_challenge/
+
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/test/git_challenge/.git/
+
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test/git_challenge (main)
+$ git add hello_world.txt
+
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test/git_challenge (main)
+$ git commit -m "最初のコミット"
+[main (root-commit) b632fc8] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test/git_challenge (main)
+$ git add hello_world.txt
+
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 59c95ff] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+fukur@DESKTOP-DMA3U15 MINGW64 /c/Users/test/git_challenge (main)
+$ git log --oneline
+59c95ff (HEAD -> main) 日本語訳を追記
+b632fc8 最初のコミット
